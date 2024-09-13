@@ -3,3 +3,5 @@
 ^README\.Rmd$
 ^data-raw$
 ^\.github$
+^README_cache$
+^pipertts\.Rproj$

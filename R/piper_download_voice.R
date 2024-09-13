@@ -22,7 +22,7 @@ piper_download_voice = function(
     config,
     quality = NULL
 ) {
-  df = piper_voices[piper_voices$voice %in% voice,]
+  df = pipertts::piper_voices[piper_voices$voice %in% voice,]
   if (nrow(df) == 0) {
     stop("No voice was found, please search through piper_voices")
   }
