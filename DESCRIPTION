@@ -19,7 +19,6 @@ RoxygenNote: 7.3.2
 Imports: 
     assertthat,
     curl,
-    jsonlite,
     magrittr,
     reticulate
 Depends: 
