@@ -25,7 +25,7 @@ piper_synthesize = function(
     length_scale = NULL,
     noise_scale = NULL,
     noise_w = NULL,
-    sentence_silence = 0
+    sentence_silence = 0.2
 ) {
   if (is.null(wav_file)) {
     wav_file = tempfile(fileext = ".wav")

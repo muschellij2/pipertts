@@ -62,7 +62,7 @@ text = c(
   "Definitely not me.  I'm a computer.  ", 
   "Just a silly computer, but I'm learning.  And when I learn, whew, watch out."
 )
-output = piper_synthesize(voice, text = text)
+output = piper_synthesize(voice, text = text, sentence_silence = 0.2)
 output
 ```
 

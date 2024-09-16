@@ -56,9 +56,9 @@ text = c(
   "Definitely not me.  I'm a computer.  ", 
   "Just a silly computer, but I'm learning.  And when I learn, whew, watch out."
 )
-output = piper_synthesize(voice, text = text)
+output = piper_synthesize(voice, text = text, sentence_silence = 0.2)
 output
-#> [1] "/var/folders/1s/wrtqcpxn685_zk570bnx9_rr0000gr/T//RtmpGfpq07/file1367625970c92.wav"
+#> [1] "/var/folders/1s/wrtqcpxn685_zk570bnx9_rr0000gr/T//RtmpnGSyKK/file105565710b07d.wav"
 ```
 
 ``` r
